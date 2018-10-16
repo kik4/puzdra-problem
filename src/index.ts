@@ -1,11 +1,11 @@
 import ucCreateRandomField from "./usecases/ucCreateRandomField"
 import ucGetChains from "./usecases/ucGetChains"
-import outputChainsConsole from "./output/outputChainsConsole"
-import outputFieldConsole from "./output/outputFieldConsole"
+import consoleLogField from "./output/consoleLogField"
+import consoleLogChains from "./output/consoleLogChains"
 
 // problem 1
 console.log("ランダムフィールド生成")
 const field = ucCreateRandomField()
-outputFieldConsole(field)
-const points = ucGetChains(field)
-outputChainsConsole(points)
+consoleLogField(field)
+const chains = ucGetChains(field)
+consoleLogChains(chains)

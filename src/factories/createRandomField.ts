@@ -1,6 +1,6 @@
 import { Field, Box } from "../types"
 
-export default function createRandomField(createRandomBox: Function): Field {
+export default (createRandomBox: Function): Field => {
   const result = []
   for (let y = 0; y < 5; y++) {
     const line: Box[] = []

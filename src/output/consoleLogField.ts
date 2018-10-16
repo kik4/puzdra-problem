@@ -1,6 +1,6 @@
 import { Field } from "../types"
 
-export default function outputFieldConsole(field: Field) {
+export default (field: Field) => {
   field.forEach(line => {
     console.log(line.join(" "))
   })

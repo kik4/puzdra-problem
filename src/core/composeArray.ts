@@ -3,7 +3,7 @@ export type composedItem = {
   count: number
 }
 
-export default function composeArray(array: Array<any>): Array<composedItem> {
+export default (array: Array<any>): Array<composedItem> => {
   if (!array || !array.length) {
     return []
   }
