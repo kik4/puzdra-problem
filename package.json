@@ -1,0 +1,14 @@
+{
+  "name": "puzdra-problem",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/kik4/puzdra-problem.git",
+  "author": "kik4 <7163720+kik4@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.6.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
