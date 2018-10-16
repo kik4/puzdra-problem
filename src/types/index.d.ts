@@ -4,7 +4,9 @@ export type Box = number
 export type Field = Box[][]
 
 // [y, x]
-export type Point = {
+export type Chain = {
   x: number
   y: number
+  axis: string
+  length: number
 }

@@ -1,9 +1,9 @@
-import { Field, Point } from "../types"
+import { Field, Chain } from "../types"
 import composeArray from "../core/composeArray"
 import transpose from "../core/transpose"
 
-export default function getChainPoints(field: Field): Point[] {
-  const result: Point[] = []
+export default (field: Field): Chain[] => {
+  const result: Chain[] = []
 
   // x-scan
   const ylength = field.length
@@ -13,7 +13,7 @@ export default function getChainPoints(field: Field): Point[] {
     let index = 0
     composed.forEach(v => {
       if (v.count >= 3) {
-        result.push({ x: index, y })
+        result.push({ x: index, y, axis: "x", length: v.count })
       }
       index += v.count
     })
@@ -28,7 +28,7 @@ export default function getChainPoints(field: Field): Point[] {
     let index = 0
     composed.forEach(v => {
       if (v.count >= 3) {
-        result.push({ x, y: index })
+        result.push({ x, y: index, axis: "y", length: v.count })
       }
       index += v.count
     })
