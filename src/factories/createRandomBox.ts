@@ -1,5 +1,6 @@
 import { Box } from "../types"
+import { boxValues } from "../definitions"
 
 export default (): Box => {
-  return Math.floor(Math.random() * 6) + 1
+  return boxValues[Math.floor(Math.random() * 6)]
 }

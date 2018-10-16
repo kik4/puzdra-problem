@@ -1,9 +1,9 @@
 import createRandomBox from "./createRandomBox"
+import { boxValues } from "../definitions"
 
 describe("createRandomBox", () => {
-  it("createRandomBox() to be 1 to 6", () => {
+  it("createRandomBox() is in boxValues", () => {
     const box = createRandomBox()
-    expect(box).toBeGreaterThanOrEqual(1)
-    expect(box).toBeLessThanOrEqual(6)
+    expect(boxValues).toContain(box)
   })
 })
