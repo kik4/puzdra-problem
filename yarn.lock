@@ -126,6 +126,10 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
+array-compressor@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/array-compressor/-/array-compressor-0.1.1.tgz#7fb537f704598623d404db714961cdc885ad4553"
+
 array-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"

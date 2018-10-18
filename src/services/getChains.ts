@@ -1,5 +1,5 @@
 import { Field, Chain } from "../types"
-import composeArray from "../core/composeArray"
+import { compress } from "array-compressor"
 import transpose from "../core/transpose"
 
 export default (field: Field): Chain[] => {
@@ -9,7 +9,7 @@ export default (field: Field): Chain[] => {
   const ylength = field.length
   for (let y = 0; y < ylength; y++) {
     const line = field[y]
-    const composed = composeArray(line)
+    const composed = compress(line)
     let index = 0
     composed.forEach(v => {
       if (v.count >= 3) {
@@ -24,7 +24,7 @@ export default (field: Field): Chain[] => {
   const xlength = field[0].length
   for (let x = 0; x < xlength; x++) {
     const line = filedT[x]
-    const composed = composeArray(line)
+    const composed = compress(line)
     let index = 0
     composed.forEach(v => {
       if (v.count >= 3) {
