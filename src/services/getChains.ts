@@ -9,9 +9,9 @@ export default (field: Field): Chain[] => {
   const ylength = field.length
   for (let y = 0; y < ylength; y++) {
     const line = field[y]
-    const composed = compress(line)
+    const compressed = compress(line)
     let index = 0
-    composed.forEach(v => {
+    compressed.forEach(v => {
       if (v.count >= 3) {
         result.push({ x: index, y, axis: "x", length: v.count })
       }
@@ -24,9 +24,9 @@ export default (field: Field): Chain[] => {
   const xlength = field[0].length
   for (let x = 0; x < xlength; x++) {
     const line = filedT[x]
-    const composed = compress(line)
+    const compressed = compress(line)
     let index = 0
-    composed.forEach(v => {
+    compressed.forEach(v => {
       if (v.count >= 3) {
         result.push({ x, y: index, axis: "y", length: v.count })
       }
