@@ -127,8 +127,8 @@ arr-union@^3.1.0:
   resolved "https://registry.yarnpkg.com/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
 array-compressor@*:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/array-compressor/-/array-compressor-0.1.2.tgz#395a5b019874959012f7c5db74ae577237c3b3e3"
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/array-compressor/-/array-compressor-0.2.0.tgz#681d5beeb816acea6933441091c23c101873af58"
 
 array-equal@^1.0.0:
   version "1.0.0"
