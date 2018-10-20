@@ -1,5 +1,5 @@
-import createRandomBox from "./createRandomBox"
-import { boxValues } from "../definitions"
+import createRandomBox from "../../src/factories/createRandomBox"
+import { boxValues } from "../../src/definitions"
 
 describe("createRandomBox", () => {
   it("createRandomBox() is in boxValues", () => {

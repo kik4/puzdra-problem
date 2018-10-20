@@ -1,4 +1,4 @@
-import transpose from "./transpose"
+import transpose from "../../src/core/transpose"
 
 describe("transpose", () => {
   it("transpose()", () => {

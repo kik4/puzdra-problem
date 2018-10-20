@@ -1,5 +1,5 @@
-import createRandomField from "./createRandomField"
-import createRandomBox from "./createRandomBox"
+import createRandomField from "../../src/factories/createRandomField"
+import createRandomBox from "../../src/factories/createRandomBox"
 
 describe("createRandomField", () => {
   it("createRandomField()'s size to be 6x5", () => {

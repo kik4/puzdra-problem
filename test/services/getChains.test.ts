@@ -1,5 +1,5 @@
-import { Field, Chain } from "../types"
-import getChains from "./getChains"
+import { Field, Chain } from "../../src/types"
+import getChains from "../../src/services/getChains"
 
 describe("getChains", () => {
   it("getChains() checks", () => {
