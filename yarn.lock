@@ -20,6 +20,10 @@
   version "23.3.5"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.5.tgz#870a1434208b60603745bfd214fc3fc675142364"
 
+"@types/node@^10.12.0":
+  version "10.12.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -126,7 +130,7 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
-array-compressor@*:
+array-compressor@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-compressor/-/array-compressor-1.0.0.tgz#b10ac1eebd82663c618774862555b3b938baf7fb"
 
@@ -612,6 +616,10 @@ decamelize@^1.1.1:
 decode-uri-component@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
+
+deep-copy@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/deep-copy/-/deep-copy-1.4.2.tgz#0622719257e4bd60240e401ea96718211c5c4697"
 
 deep-extend@^0.6.0:
   version "0.6.0"
