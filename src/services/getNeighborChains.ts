@@ -2,9 +2,8 @@ import { Field, NeighborChains } from "../types"
 import swapBoxies from "./swapBoxies"
 import getChains from "./getChains"
 
-export default (field: Field, y: number, x: number): NeighborChains[] => {
+export default (field: Field, y: number, x: number, directions: string[]): NeighborChains[] => {
   let result: NeighborChains[] = []
-  const directions = ["up", "down", "left", "right"]
 
   directions.forEach(direction => {
     const temp = swapBoxies(field, y, x, direction)

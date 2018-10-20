@@ -23,5 +23,7 @@ describe("swapBoxies", () => {
     expect(swapBoxies(field, 1, 1, "down")).toEqual([[1, 2], [3, 4]])
     expect(swapBoxies(field, 1, 1, "left")).toEqual([[1, 2], [4, 3]])
     expect(swapBoxies(field, 1, 1, "right")).toEqual([[1, 2], [3, 4]])
+
+    expect(swapBoxies(field, 0, 0, "downright")).toEqual([[4, 2], [3, 1]])
   })
 })
