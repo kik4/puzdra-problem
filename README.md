@@ -4,9 +4,8 @@
 
 # 個人方針
 
-- JavaScript らしく書く
-  - TypeScript 拡張は型だけ使う
-  - Class は使わない
+- TypeScript 拡張は型だけ使う
+- Class は使わない
 
 # 振り返り
 
